@@ -448,19 +448,35 @@
           </ul>
         </div>
       </div>
+      <div class="joinn">
+        <h2 class="visually-hidden">Форма підписки</h2>
+        <h3 class="welcome-title">Підпишіться на розсилку</h3>
+        <form class="modal-form" autocomplete="off">
+          <div class="footer-form">
+            <label for="mail"></label>
+            <input type="email" name="email" id="mail" placeholder="E-mail" />
+            <button class="link-button" type="submit">
+              Підписатися
+              <svg class="join-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close" data-modal-close>
           <svg class="close-modal" width="18" height="18">
-            <use href="./images/symbol.svg#icon-close-black-18dp-2-1-1"></use>
+            <use href="./images/symbol.svg#icon-icon-send-1"></use>
           </svg>
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form">
           <div class="input-field">
+            <label for="user-name" class="input-title">Ім'я</label>
             <div class="input-wrap">
-              <label for="user-name" class="input-title">Ім'я</label>
               <input
                 type="text"
                 minlength="10"
@@ -478,8 +494,8 @@
           </div>
           <p class="error">Поле не заповнене</p>
           <div class="input-field">
+            <label for="user-tel" class="input-title">Телефон</label>
             <div class="input-wrap">
-              <label for="user-tel" class="input-title">Телефон</label>
               <input
                 type="tel"
                 minlength="13"
@@ -497,8 +513,8 @@
           </div>
           <p class="error">Поле не заповнене</p>
           <div class="input-field">
+            <label for="mail" class="input-title">Пошта</label>
             <div class="input-wrap">
-              <label for="mail" class="input-title">Пошта</label>
               <input
                 type="email"
                 class="form-input"
@@ -513,7 +529,6 @@
             </div>
             <p class="error">Поле не заповнене</p>
           </div>
-          <!-- ----коментар---- -->
           <div class="input-comment">
             <label for="user-comment" class="input-title">Коментар</label>
             <textarea
