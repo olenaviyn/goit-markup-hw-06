@@ -540,20 +540,20 @@
             <p class="error">Поле не заповнене</p>
           </div>
           <div class="input-field">
-            <input class="modal-radio" type="checkbox" name="&&&" />
-            <label class="modal-checkbox">
-              <span class="checkbox-icon">
-                <svg class="form-che" width="16" height="15">
+            <input
+              class="input-che visually-hidden"
+              type="checkbox"
+              name="user-policy"
+              value="true"
+              id="user-policy"
+            />
+            <label for="user-policy" class="chekbox-text">
+              <span>
+                <svg class="icon-che" width="16" height="15">
                   <use href="./images/symbol.svg#icon-icon-check"></use>
                 </svg>
-              </span>
-              <span>
-                <label for="user-policy" class="chekbox-text"
-                  >Погоджуюся з розсилкою та приймаю</label
-                >
-                ><a class="modal-link" href="#"> Умови договору</a></span
-              >
-            </label>
+              </span>Погоджуюся з розсилкою та приймаю</label
+            ><a class="modal-link" href="#"> Умови договору</a>
           </div>
           <button type="submit" class="send-btn">Відправити</button>
         </form>
