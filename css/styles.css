@@ -746,6 +746,7 @@ body {
 .join-icon {
   display: inline-block;
   margin-left: 10px;
+  fill: var(--main-white-color);
 }
 
 .footer-form {
