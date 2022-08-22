@@ -742,6 +742,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .join-icon {
   display: inline-block;
   margin-left: 10px;
@@ -940,6 +941,7 @@ body {
 }
 
 .send-btn {
+  display: inline-block;
   background: #188ce8;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -966,14 +968,16 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .chekbox-text span {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 16px;
   height: 15px;
+  margin-right: 8px;
   border-radius: 4px;
   cursor: pointer;
   fill: solid 212121;
@@ -981,10 +985,6 @@ body {
 }
 
 .icon-che {
-  display: inline-block;
-  top: 50%;
-  left: 16px;
-  margin-right: 5px;
   border: 2px solid;
   border-color: var(--dark-main-color);
   fill: var(--main-white-color);
@@ -999,6 +999,7 @@ body {
   color: rgba(33, 150, 243, 1);
   text-decoration: underline;
 }
+
 
 .input-che:checked + .chekbox-text span {
   background-color: var(--accent-color);
