@@ -1001,6 +1001,10 @@ body {
   text-decoration: underline;
 }
 
+.chek-link {
+  padding-left: 3px;
+}
+
 
 .input-che:checked + .chekbox-text span {
   background-color: var(--accent-color);
