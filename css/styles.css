@@ -25,9 +25,10 @@ ul {
   padding-left: 0px;
 }
 
-.header-link {
-  cursor: pointer;
+.nav-main-link {
+cursor: pointer;
 }
+ 
 
 address {
   font-style: normal;
@@ -112,7 +113,7 @@ body {
   margin-right: 93px;
 }
 
-.item:not(:last-child) {
+.nav-main-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -120,7 +121,7 @@ body {
   margin-right: 50px;
 }
 
-.header-link {
+.nav-main-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -150,8 +151,8 @@ body {
   border-radius: 2px;
 }
 
-.header-link:hover,
-.header-link:focus {
+.nav-main-link:hover,
+.nav-main-link:focus {
   color: var(--accent-color);
 }
 
@@ -173,7 +174,7 @@ body {
   color: #2196f3;
 }
 
-.link-mail {
+.nav-mail-link {
   display: flex;
   align-items: center;
   font-family: "Roboto";
@@ -186,13 +187,13 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-mail:hover,
-.link-mail:focus {
+.nav-mail-link:hover,
+.nav-mail-link:focus {
   color: #2196f3;
 }
 
-.link-mail:hover .icon,
-.link-mail:focus .icon {
+.nav-mail-link:hover .icon,
+.nav-mail-link:focus .icon {
   fill: #2196f3;
 }
 
@@ -246,7 +247,7 @@ body {
   font-style: normal;
 }
 
-.button-logo .item:not(:last-child) {
+.button-logo .nav-main-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -833,8 +834,8 @@ body {
 
 .close {
   position: absolute;
-  top: -9px;
-  right: -9px;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -920,7 +921,10 @@ body {
 
 .input-field-comm {
   margin-bottom: 30px;
+}
 
+.input-comment {
+  margin-bottom: 20px;
 }
 
 .form-icon {
